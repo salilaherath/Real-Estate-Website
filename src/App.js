@@ -1,8 +1,9 @@
-import React from "react";
-import Best from "./components/Best/Best";
-import Featured from "./components/Featured/Featured";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
+import React from 'react';
+import Best from './components/Best/Best';
+import Featured from './components/Featured/Featured';
+import Footer from './components/Footer/Footer';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Best />
       <Featured />
+      <Footer />
     </>
   );
 }
